@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/music_player_icon"
+    android:backgroundTint="@color/teal_700"
+    tools:context=".mymusic_player">
+
+    <ImageView
+        android:id="@+id/music_ico"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/my_music_ico"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/song"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/music_ico"
+        android:text="ROCKSTAR"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:fontFamily="@font/font_1"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/song"
+        android:text="POST MALONE"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"/>
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/artist"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="40dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/seekbar"
+        android:layout_marginTop="37dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/previou_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/left_right_button_grad"
+            android:src="@drawable/skip_previou_button" />
+
+        <ImageButton
+            android:id="@+id/play_pause_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="89dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_grade"
+            android:src="@drawable/_play_circle_button" />
+
+        <ImageButton
+            android:id="@+id/next_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/left_right_button_grad"
+            android:src="@drawable/skip_next_button" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

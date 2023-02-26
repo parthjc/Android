@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6DAF4C4C"
+    tools:context=".myactivity_ratingbar">
+
+    <TextView
+        android:id="@+id/switchtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        android:textStyle="bold"
+        android:fontFamily="@font/font_1"
+        android:textSize="60sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="50dp"/>
+
+    <Switch
+        android:id="@+id/switchbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/switchtext"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="40dp"
+        android:switchMinWidth="60dp"/>
+
+    <TextView
+        android:id="@+id/seekbartext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/switchbtn"
+        android:text="Seekbar"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/zeyada"
+        android:layout_marginLeft="110dp"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seekbartext"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/ratingtext"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seekbar"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="130dp"
+        android:fontFamily="@font/font_1"
+        android:text="Rating"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:textStyle="bold"/>
+
+    <RatingBar
+        android:id="@+id/ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ratingtext"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="70dp"/>
+
+
+
+
+
+
+</RelativeLayout>
