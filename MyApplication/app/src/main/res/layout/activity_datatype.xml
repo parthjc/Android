@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".activity_datatype">
+
+
+    <TextView
+        android:id="@+id/java_iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="JAVA DATATYPE"
+        android:textSize="32sp"
+        android:layout_marginTop="150dp"
+        android:textColor="@color/black"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:textColor="@color/white"
+        android:text="click"
+        android:textSize="20sp"
+        android:padding="15dp"
+        />
+
+
+
+
+</LinearLayout>
