@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A14F35"
+    tools:context=".activity_min_chocolate_mug_cake">
+
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Min Chocolate Mug Cake"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/Ingredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heading"
+        android:text="Ingredients of Mug Cake"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_margin="5dp"
+
+        />
+
+    <TextView
+        android:id="@+id/Ingredients_milk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Ingredients"
+        android:text="1 Cup Milk"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:gravity="left"
+        android:layout_marginLeft="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/Ingredients_butter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Ingredients_milk"
+        android:text="1/2 Cup Butter"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+
+        />
+
+    <TextView
+        android:id="@+id/Ingredients_Atta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Ingredients_butter"
+        android:text="1 Cup Atta"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+
+        />
+
+    <TextView
+        android:id="@+id/Ingredients_Cocoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Ingredients_Atta"
+        android:text="1/2 Cup Cocoa Powder"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+
+        />
+
+    <TextView
+        android:id="@+id/Ingredients_Fruit_salt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Ingredients_Cocoa"
+        android:text="1 Tbsp Fruit salt"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+
+        />
+
+    <TextView
+        android:id="@+id/Ingredients_Jaggery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Ingredients_Fruit_salt"
+        android:text="1/2 Cup Jaggery powder"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+
+        />
+
+    <TextView
+        android:id="@+id/make_mug_cake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Ingredients_Jaggery"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="Making"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/make_mug_cake1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/make_mug_cake"
+        android:text="1.Take all the ingredients together."
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+
+        />
+    <TextView
+        android:id="@+id/make_mug_cake2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/make_mug_cake1"
+        android:text="2.Mix everything well. Make sure there is no lump."
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+        />
+    <TextView
+        android:id="@+id/make_mug_cake3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/make_mug_cake2"
+        android:text="3.Fill half-a-cup with the batter."
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+
+        />
+    <TextView
+        android:id="@+id/make_mug_cake4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/make_mug_cake3"
+        android:text="4.Preheat microwave oven and bake the cake for 2.5 minutes"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+
+        />
+    <TextView
+        android:id="@+id/make_mug_cake5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/make_mug_cake4"
+        android:text="5.Drizzle some chocolate sauce on the top and serve"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:gravity="left"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/mug_img"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="250dp"
+        android:layout_below="@id/Ingredients"
+        android:background="@drawable/chocolate_mug_cake"
+
+        />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/make_mug_cake5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:progressBackgroundTint="#633425"
+        />
+</RelativeLayout>
