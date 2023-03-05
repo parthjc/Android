@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".activity_intent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message"
+        android:textSize="25sp"
+        android:textColor="#225DD3"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:background="#BED2E1"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/message_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="message"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/messageTO_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_gravity="center"
+        android:layout_margin="0dp"
+        android:text="message TO"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/messageMultiple_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="message Multiple"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:textSize="25sp"
+        android:textColor="#225DD3"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:background="#BED2E1"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/dial_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:text="Dial"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/call_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:text="Emergency call"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="25sp"
+        android:textColor="#225DD3"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="#BED2E1"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/email_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:text="Email"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/emailto_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:text="Email to"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+
+</LinearLayout>
