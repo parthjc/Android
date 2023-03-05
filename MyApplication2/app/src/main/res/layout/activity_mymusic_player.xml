@@ -50,34 +50,31 @@
         android:layout_marginTop="40dp" />
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@id/seekbar"
         android:layout_marginTop="37dp"
-        android:gravity="center_horizontal"
+        android:gravity="center"
         android:orientation="horizontal">
 
-        <ImageButton
+        <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/previou_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
             android:background="@drawable/left_right_button_grad"
             android:src="@drawable/skip_previou_button" />
 
-        <ImageButton
+        <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/play_pause_btn"
             android:layout_width="wrap_content"
             android:layout_height="89dp"
-            android:layout_marginLeft="20dp"
             android:background="@drawable/button_grade"
             android:src="@drawable/_play_circle_button" />
 
-        <ImageButton
+        <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/next_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
             android:background="@drawable/left_right_button_grad"
             android:src="@drawable/skip_next_button" />
 
