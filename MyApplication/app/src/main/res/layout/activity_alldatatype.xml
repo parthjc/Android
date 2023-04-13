@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_alldatatype"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/java_datatype_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JAVA DATA TYPE"
+        android:textSize="40sp"
+        android:background="@drawable/calulator_button2"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/java_datatype_String"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="String-> String_Type"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+         />
+
+    <TextView
+        android:id="@+id/java_datatype_byte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="byte-> 111"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/java_datatype_int"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="int-> 1121214"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/java_datatype_float"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="float-> 101.0"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/java_datatype_double"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="double-> 102121.11111"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/java_datatype_long"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="long-> 1111121454444"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/java_datatype_boolean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="boolean-> true"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        />
+
+
+</LinearLayout>

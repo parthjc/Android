@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_seekbar_ratingbar">
+
+    <SeekBar
+        android:id="@+id/sbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:max="20"
+        android:progress="100"
+        />
+
+    <TextView
+        android:id="@+id/tv_ram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GOD"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_shiva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHIVA"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+
+    <RatingBar
+        android:id="@+id/ratng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:numStars="5"
+        />
+
+    <TextView
+        android:id="@+id/hotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOTEL"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Declaring the required permissions -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="32">
+        <activity
+            android:name=".activity_tic_tac_toe"
+            android:exported="false"/>
+        <activity
+            android:name=".activity_my_tic_tac_toe"
+            android:exported="false" />
+        <activity
+            android:name=".activity_seekbar_ratingbar"
+            android:exported="false" />
+        <activity
+            android:name=".activity_alert_btn"
+            android:exported="false" />
+        <activity
+            android:name=".activity_alertbox"
+            android:exported="false" />
+        <activity
+            android:name=".activity_video_view"
+            android:exported="false" />
+        <activity
+            android:name=".activity_grid_view"
+            android:exported="false" />
+        <activity
+            android:name=".activity_auto_complete_text"
+            android:exported="false" />
+        <activity
+            android:name=".activity_spinner"
+            android:exported="false" />
+        <activity
+            android:name=".activity_list_view"
+            android:exported="false" />
+        <activity
+            android:name=".activity_splash"
+            android:exported="false" />
+        <activity
+            android:name=".activity_singup"
+            android:exported="false" />
+        <activity
+            android:name=".activity_AdditionApp"
+            android:exported="false" />
+        <activity
+            android:name=".activity_alldatatype"
+            android:exported="false" />
+        <activity
+            android:name=".activity_backward"
+            android:exported="false" />
+        <activity
+            android:name=".activity_bmi_display"
+            android:exported="false" />
+        <activity
+            android:name=".activity_datatype"
+            android:exported="false" />
+        <activity
+            android:name=".activity_forward_arrow"
+            android:exported="false" />
+        <activity
+            android:name=".activity_intent"
+            android:exported="false" />
+        <activity
+            android:name=".activity_life_cycle"
+            android:exported="false" />
+        <activity
+            android:name=".activity_life_cycle2"
+            android:exported="false" />
+        <activity
+            android:name=".activity_liner_layout"
+            android:exported="false" />
+        <activity
+            android:name=".activity_login"
+            android:exported="false" />
+        <activity
+            android:name=".activity_singin"
+            android:exported="false" />
+        <activity
+            android:name=".activity_singup_bmi"
+            android:exported="false" />
+        <activity
+            android:name=".activitybmi_calculator"
+            android:exported="false" />
+        <activity
+            android:name=".activity_toast"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".activity_reset_dialogbox"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

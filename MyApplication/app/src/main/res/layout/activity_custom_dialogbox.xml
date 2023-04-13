@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="421dp"
+    android:layout_height="350dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    app:circularflow_radiusInDP="30dp"
+    >
+
+
+    <ImageView
+        android:id="@+id/diallogbox_doneimg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/dialogbox_done"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/diallogbox_tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="58dp"
+        android:text="A Password Reset Link has been sent "
+        android:layout_gravity="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/diallogbox_tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="58dp"
+        android:text="to your Email ID"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+
+     <TextView
+            android:id="@+id/diallogbox_tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="58dp"
+            android:text="Follow the instructions and the link received"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+        />
+    <TextView
+            android:id="@+id/diallogbox_tv4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="58dp"
+            android:text="in your email to reset your password"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/diallogbox_closebtn"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:textColor="@color/white"
+        android:background="@drawable/dialogbox_btn_close"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

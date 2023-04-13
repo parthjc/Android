@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_currency_converter">
+
+    <TextView
+        android:id="@+id/header_title_currency_conv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Currency Converter"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        />
+
+    <Spinner
+        android:id="@+id/currency_from"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edittext_input_currency"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/currency_input"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:hint="Enter Amount"
+        android:gravity="center"
+        android:inputType="number"
+
+        />
+
+    <Spinner
+        android:id="@+id/spinner_Show_currency"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/edittext_textview_currency"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/currency_input"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:inputType="number"
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
