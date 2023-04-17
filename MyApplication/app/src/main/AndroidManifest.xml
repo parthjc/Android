@@ -18,8 +18,11 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="32">
         <activity
-            android:name=".activity_tic_tac_toe"
+            android:name=".activity_date_time"
             android:exported="false"/>
+        <activity
+            android:name=".activity_tic_tac_toe"
+            android:exported="false" />
         <activity
             android:name=".activity_my_tic_tac_toe"
             android:exported="false" />

@@ -57,7 +57,7 @@ public class activity_currency_converter extends AppCompatActivity {
            @Override
            public void onItemSelected(AdapterView<?> adapterView, View view, int postion, long l) {
 
-               if(postion)
+
 
            }
 
