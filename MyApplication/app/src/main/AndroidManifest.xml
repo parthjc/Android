@@ -8,6 +8,7 @@
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -18,8 +19,11 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="32">
         <activity
-            android:name=".activity_date_time"
+            android:name=".activity_reset_dialogbox"
             android:exported="false"/>
+        <activity
+            android:name=".activity_date_time"
+            android:exported="false" />
         <activity
             android:name=".activity_tic_tac_toe"
             android:exported="false" />
@@ -109,7 +113,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".activity_reset_dialogbox"
+            android:name=".activity_webview"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
