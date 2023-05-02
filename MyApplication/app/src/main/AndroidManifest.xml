@@ -18,8 +18,11 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="32">
         <activity
-            android:name=".activity_constrlayout_welcomeback"
+            android:name=".activity_custom_grid_view"
             android:exported="false"/>
+        <activity
+            android:name=".activity_constrlayout_welcomeback"
+            android:exported="false" />
         <activity
             android:name=".activity_constrlayout_singup"
             android:exported="false" />
@@ -121,7 +124,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".activity_custom_grid_view"
+            android:name=".activity_custom_listview"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
