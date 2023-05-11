@@ -18,8 +18,11 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="32">
         <activity
-            android:name=".activity_custom_grid_view"
+            android:name=".activity_my_tic_tac_toe"
             android:exported="false"/>
+        <activity
+            android:name=".activity_custom_grid_view"
+            android:exported="false" />
         <activity
             android:name=".activity_constrlayout_welcomeback"
             android:exported="false" />
@@ -36,7 +39,7 @@
             android:name=".activity_date_time"
             android:exported="false" />
         <activity
-            android:name=".activity_tic_tac_toe"
+            android:name=".activity_custom_listview"
             android:exported="false" />
         <activity
             android:name=".activity_my_tic_tac_toe"
@@ -124,7 +127,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".activity_custom_listview"
+            android:name=".activity_shared_preference"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
