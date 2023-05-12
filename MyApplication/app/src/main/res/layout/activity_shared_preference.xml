@@ -111,15 +111,13 @@
 
 
         <LinearLayout
+            android:id="@+id/singu_btn"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/singu_btn"
-            android:layout_centerHorizontal="true"
-            android:layout_marginLeft="20dp"
             android:layout_below="@id/shared_preference_pass_singup"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
             android:orientation="horizontal">
-
-
 
 
             <androidx.appcompat.widget.AppCompatButton
@@ -128,7 +126,6 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/shared_preference_pass_singup"
                 android:layout_centerHorizontal="true"
-                android:layout_marginStart="15dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="15dp"
                 android:layout_marginBottom="15dp"
@@ -144,7 +141,6 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/shared_preference_pass_singup"
                 android:layout_centerHorizontal="true"
-                android:layout_marginStart="15dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="15dp"
                 android:layout_marginBottom="15dp"
@@ -160,7 +156,6 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/shared_preference_pass_singup"
                 android:layout_centerHorizontal="true"
-                android:layout_marginStart="15dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="15dp"
                 android:layout_marginBottom="15dp"
@@ -169,11 +164,6 @@
                 android:text="delete"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
-
-
-
-
-
 
 
         </LinearLayout>

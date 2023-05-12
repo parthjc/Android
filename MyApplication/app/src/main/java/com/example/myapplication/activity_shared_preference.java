@@ -8,6 +8,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class activity_shared_preference extends AppCompatActivity {
 
@@ -46,8 +47,10 @@ public class activity_shared_preference extends AppCompatActivity {
                 editor.apply();
 
 
-
+                Toast.makeText(activity_shared_preference.this, "SAVE!", Toast.LENGTH_SHORT).show();
             }
+
+
         });
 
         bt2.setOnClickListener(new View.OnClickListener() {
@@ -77,6 +80,7 @@ public class activity_shared_preference extends AppCompatActivity {
 
                 }
 
+                Toast.makeText(activity_shared_preference.this, "SHOW!", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -94,6 +98,7 @@ public class activity_shared_preference extends AppCompatActivity {
                 et3.setText("");
                 et4.setText("");
 
+                Toast.makeText(activity_shared_preference.this, "DELETE!+", Toast.LENGTH_SHORT).show();
 
             }
         });

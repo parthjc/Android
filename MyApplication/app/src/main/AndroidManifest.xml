@@ -18,8 +18,20 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="32">
         <activity
-            android:name=".activity_my_tic_tac_toe"
+            android:name=".activity_shared_preference"
             android:exported="false"/>
+        <activity
+            android:name=".activity_logout_shared_preferences"
+            android:exported="false"/>
+        <activity
+            android:name=".activity_home_shared_preferences"
+            android:exported="false"/>
+        <activity
+            android:name=".activity_login_shared_preferences"
+            android:exported="false"/>
+        <activity
+            android:name=".activity_my_tic_tac_toe"
+            android:exported="false" />
         <activity
             android:name=".activity_custom_grid_view"
             android:exported="false" />
@@ -42,7 +54,7 @@
             android:name=".activity_custom_listview"
             android:exported="false" />
         <activity
-            android:name=".activity_my_tic_tac_toe"
+            android:name=".activity_tic_tac_toe"
             android:exported="false" />
         <activity
             android:name=".activity_seekbar_ratingbar"
@@ -127,7 +139,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".activity_shared_preference"
+            android:name=".activity_splash_shared_preferences"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
