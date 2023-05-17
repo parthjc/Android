@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_first">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/fragment_first_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="first_fragment"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:background="#00BCD4"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        />
+
+</FrameLayout>

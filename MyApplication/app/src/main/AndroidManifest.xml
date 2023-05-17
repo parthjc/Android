@@ -18,17 +18,23 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="32">
         <activity
-            android:name=".activity_shared_preference"
+            android:name=".activity_frgmt_first"
             android:exported="false"/>
+        <activity
+            android:name=".activity_splash_shared_preferences"
+            android:exported="false" />
+        <activity
+            android:name=".activity_shared_preference"
+            android:exported="false" />
         <activity
             android:name=".activity_logout_shared_preferences"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".activity_home_shared_preferences"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".activity_login_shared_preferences"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".activity_my_tic_tac_toe"
             android:exported="false" />
@@ -139,7 +145,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".activity_splash_shared_preferences"
+            android:name=".activity_frgmt_second"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
