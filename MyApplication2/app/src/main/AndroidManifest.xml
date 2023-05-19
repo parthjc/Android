@@ -12,8 +12,15 @@
         android:theme="@style/Theme.MyApplication2"
         tools:targetApi="31">
         <activity
-            android:name=".activity_news"
+            android:name=".activity_custom_spinner"
             android:exported="false"/>
+        <activity
+            android:name=".activity_custom_buttons"
+            android:exported="false"/>
+
+        <activity
+            android:name=".activity_news"
+            android:exported="false" />
         <activity
             android:name=".activity_currency_converter"
             android:exported="false" />
@@ -39,7 +46,7 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".activity_custom_spinner"
+            android:name=".activity_dark_mode"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
