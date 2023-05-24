@@ -18,11 +18,14 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="32">
         <activity
-            android:name=".activity_frgmt_xyz_load"
+            android:name=".activity_frgmt_xyz"
             android:exported="false"/>
         <activity
+            android:name=".activity_frgmt_xyz_load"
+            android:exported="false" />
+        <activity
             android:name=".activity_frgmt_second"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".activity_frgmt_first"
             android:exported="false" />
@@ -151,7 +154,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".activity_frgmt_xyz"
+            android:name=".activity_whatsapp"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
