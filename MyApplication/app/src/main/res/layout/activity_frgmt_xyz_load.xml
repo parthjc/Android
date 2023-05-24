@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_frgmt_xyz_load">
+
+
+    <fragment
+        android:id="@+id/load_x"
+        android:name="com.example.myapplication.fragment_x"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+    <fragment
+        android:id="@+id/load_y"
+        android:name="com.example.myapplication.fragment_y"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+     <fragment
+        android:id="@+id/load_z"
+        android:name="com.example.myapplication.fragment_z"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+     />
+
+
+
+</LinearLayout>

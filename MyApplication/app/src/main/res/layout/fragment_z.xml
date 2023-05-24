@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9C27B0"
+    tools:context=".fragment_z">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/frgmt_z"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Z"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</FrameLayout>

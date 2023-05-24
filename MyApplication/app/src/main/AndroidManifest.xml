@@ -18,8 +18,14 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="32">
         <activity
-            android:name=".activity_frgmt_first"
+            android:name=".activity_frgmt_xyz_load"
             android:exported="false"/>
+        <activity
+            android:name=".activity_frgmt_second"
+            android:exported="false"/>
+        <activity
+            android:name=".activity_frgmt_first"
+            android:exported="false" />
         <activity
             android:name=".activity_splash_shared_preferences"
             android:exported="false" />
@@ -145,7 +151,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".activity_frgmt_second"
+            android:name=".activity_frgmt_xyz"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
