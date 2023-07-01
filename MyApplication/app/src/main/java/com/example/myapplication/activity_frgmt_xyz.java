@@ -29,8 +29,9 @@ public class activity_frgmt_xyz extends AppCompatActivity {
 
         btnx.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                onLoad(new XFragment(),1);
+            public void onClick(View view)
+            {
+                onLoad(new XFragment().getInstance("ram",001),1);
             }
         });
 
@@ -67,6 +68,16 @@ public class activity_frgmt_xyz extends AppCompatActivity {
 
      FragmentManager fragmentManager = getSupportFragmentManager();
      FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+
+//     Bundle bundle = new Bundle();
+//     bundle.putString("ky","shiva");
+//     bundle.putInt("kyint",001);
+//
+//     f.setArguments(bundle);
+
+
+
+
 
      if (flag == 0){
 
