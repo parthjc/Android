@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:id="@+id/teamred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEAM DHRUV"
+        android:textSize="28sp"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/option1Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option 1"
+        android:layout_below="@id/questionTextView"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:enabled="true"/>
+
+    <Button
+        android:id="@+id/option2Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option 2"
+        android:layout_below="@id/option1Button"
+        android:layout_marginTop="10dp"
+        android:padding="16dp"
+        android:enabled="true"/>
+
+    <Button
+        android:id="@+id/option3Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option 3"
+        android:layout_below="@id/option2Button"
+        android:layout_marginTop="10dp"
+        android:padding="16dp"
+        android:enabled="true"/>
+
+    <Button
+        android:id="@+id/option4Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Option 4"
+        android:layout_below="@id/option3Button"
+        android:layout_marginTop="10dp"
+        android:padding="16dp"
+        android:enabled="true"/>
+
+    <Button
+        android:id="@+id/fiftyFiftyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50-50"
+        android:layout_below="@id/option4Button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:enabled="true"/>
+
+    <Button
+        android:id="@+id/doubleDipButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Double Dip"
+        android:layout_below="@id/fiftyFiftyButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"
+        android:padding="16dp"
+        android:enabled="true"/>
+
+    <Button
+        android:id="@+id/flipQuestionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flip the Question"
+        android:layout_below="@id/doubleDipButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:onClick="onClick"
+        android:padding="16dp"
+        android:enabled="true"/>
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_below="@id/option4Button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/finalScoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nextButton"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@color/design_default_color_secondary_variant"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"/>
+
+</RelativeLayout>
