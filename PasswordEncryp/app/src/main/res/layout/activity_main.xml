@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f0f0f0"
+    tools:context=".MainActivity">
+
+    <!-- Parth Chaudhari Logo -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/parth_chaudhari_logo"
+        android:contentDescription="Parth Chaudhari Logo"/>
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Enter text to encrypt"
+        android:padding="12dp"
+        android:background="#ffffff"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:inputType="text"
+        android:singleLine="true"/>
+
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Enter password"
+        android:padding="12dp"
+        android:background="#ffffff"
+        android:inputType="textPassword"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:imeOptions="actionDone"/>
+
+    <!-- Encrypt and Decrypt Buttons -->
+    <Button
+        android:id="@+id/encryptButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Encrypt"
+        android:textColor="#ffffff"
+        android:background="#009688"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/decryptButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Decrypt"
+        android:textColor="#ffffff"
+        android:background="#009688"
+        android:padding="12dp"/>
+
+    <!-- Encrypted Text -->
+    <TextView
+        android:id="@+id/encryptedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Encrypted: "
+        android:textColor="#333333"
+        android:textSize="18sp"/>
+
+    <!-- Copy Encrypted Button -->
+    <Button
+        android:id="@+id/copyEncryptedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Copy Encrypted"
+        android:textColor="#ffffff"
+        android:background="#009688"
+        android:padding="12dp"/>
+
+    <!-- Decrypted Text -->
+    <TextView
+        android:id="@+id/decryptedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Decrypted: "
+        android:textColor="#333333"
+        android:textSize="18sp"/>
+
+    <!-- Copy Decrypted Button -->
+    <Button
+        android:id="@+id/copyDecryptedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Copy Decrypted"
+        android:textColor="#ffffff"
+        android:background="#009688"
+        android:padding="12dp"/>
+
+    <!-- Reset Button -->
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Reset"
+        android:textColor="#ffffff"
+        android:background="#009688"
+        android:padding="12dp"/>
+
+</LinearLayout>

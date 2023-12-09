@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id doubleDipButton
+id fiftyFiftyButton
+id finalScoreTextView
+id flipQuestionButton
+id nextButton
+id option1Button
+id option2Button
+id option3Button
+id option4Button
+id questionTextView
+id teamred
+layout activity_finalscore
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Kbc
+style Theme.Kbc
+xml backup_rules
+xml data_extraction_rules
